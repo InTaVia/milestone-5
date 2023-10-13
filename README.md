@@ -20,5 +20,13 @@ https://github.com/InTaVia/milestone-4
 
 ## Frontend (WP5 & WP6)
 
-[...]
+### Search & Find
+
+### Data Curation, Editing, Local Data
+
+### Visual Analysis
+
+### Story Creation
+
+### Story Viewer
 
