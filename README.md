@@ -11,10 +11,10 @@ https://github.com/InTaVia/milestone-4
 # `Please Update Below`
 
 
-## Backend (WP2 & 3)
+## Knowledge Graph & Backend (WP2 & 3)
 [...]
 
-## WP4
+## NLP (WP4)
 
 [...]
 
