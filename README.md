@@ -23,7 +23,7 @@ The repository https://github.com/InTaVia/source-dataset-conversion contains the
 - [Finland](https://github.com/InTaVia/source-dataset-conversion/blob/main/BS_dataset/bs2intavia.ttl) (Aalto / UH)
 - [Austria](https://github.com/InTaVia/source-dataset-conversion/blob/main/APIS_dataset/apis_oebl_serialization_2-9-2022.ttl) (OeAW)
 - Netherlands [Part1](https://github.com/InTaVia/source-dataset-conversion/blob/main/intavia_biographynet/data/rdf/xaa.zip), [Part2](https://github.com/InTaVia/source-dataset-conversion/blob/main/intavia_biographynet/data/rdf/xab.zip), [Part3](https://github.com/InTaVia/source-dataset-conversion/blob/main/intavia_biographynet/data/rdf/xac.zip) (zipped in three parts for size) (VU)
-- Slovenia [example subset](https://github.com/InTaVia/source-dataset-conversion/blob/main/SBI_dataset/sbi.ttl) (ZRC SAZU)
+- [Slovenia](https://github.com/InTaVia/source-data/blob/d17fc232c29de5ff444b47d68d05bc83e552fb37/datasets/sbi_data.ttl) (ZRC SAZU)
 
 There is an improved workflow for ingestion currently implemented. It uses a [GitHub repo](https://github.com/InTaVia/source-data). For every new dataset or dataset version a pull request against main is created in the repo. On PR a validation using shacl is run. Merge of the  PR in main is only allowed when shacl validation succeeds and a review of the new dataset has been submitted. On merge to main another GitHub action is running. This second action pushes the dataset to the triplestore and creates the needed entries in the provenance named graph.
 
