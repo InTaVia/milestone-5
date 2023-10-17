@@ -63,6 +63,9 @@ The repository https://github.com/InTaVia/prefect-flows contains implementations
 * Inference
 * Enrich CHO data
 * Convert GeoSpatial coordinates
+* Enrich person instances with wikidata relations
+* Enrich person instances with ULAN relations
+* Create APIS data directly from API
 
 Prefect V2 has been deployed and flows are moved from v1 to v2 at the moment. The flows for pushing new data to the source-data repo (see above) are already in Prefect v2.
 
