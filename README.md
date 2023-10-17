@@ -47,6 +47,10 @@ Namely The following APIs are provided:
 The original version of the API is available under https://intavia-backend.acdh-dev.oeaw.ac.at/v1/
 A second and improved version of the API has been deployed under https://intavia-backend.acdh-dev.oeaw.ac.at/v2/
 
+### Read-only InTaVia Knowledgegraph
+
+A read-only version of the InTaVia Knowledgegraph can be accessed under https://intavia-ts.acdh-dev.oeaw.ac.at/
+
 ### ResearchSpace for internal usage
 
 In addition to the resources mentioned above we set up a [ResearchSpace instance](https://mp-playground.acdh-dev.oeaw.ac.at/) that is meant for internal work on and exploration of the knowledge graph. This service is currently for internal use only.
