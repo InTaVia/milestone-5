@@ -57,7 +57,7 @@ In addition to the resources mentioned above we set up a [ResearchSpace instance
 
 ### Prefect workflow component
 
-We deployed [Prefect](https://www.prefect.io/) within the  kubernetes cluster to run conversion, enrichment and ingestion scripts on the cluster. Given that the open-source version of this software solution doesnt come with authentication built in, this component is currently only reachable from within ACDH-CH subnet. Given some delay in our original planning the scripts are currently still executed locally instead of running within prefect.
+We deployed [Prefect](https://www.prefect.io/) within the  kubernetes cluster to run conversion, enrichment and ingestion scripts on the cluster. Given that the open-source version of this software solution doesnt come with authentication built in, this component is currently only reachable from within ACDH-CH subnet.
 
 The repository https://github.com/InTaVia/prefect-flows contains implementations for the the following workflows:
 
