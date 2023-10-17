@@ -49,7 +49,7 @@ A second and improved version of the API has been deployed under https://intavia
 
 ### Read-only InTaVia Knowledgegraph
 
-A read-only version of the InTaVia Knowledgegraph can be accessed under https://intavia-ts.acdh-dev.oeaw.ac.at/
+A read-only version of the InTaVia Knowledgegraph can be accessed in Blazegraph Workbench: https://intavia-ts.acdh-dev.oeaw.ac.at/, SPARQL endpoint URL: https://intavia-ts.acdh-dev.oeaw.ac.at/sparql.
 
 ### ResearchSpace for internal usage
 
