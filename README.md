@@ -43,8 +43,9 @@ Namely The following APIs are provided:
 * several statistics endpoints
 * Reconciliation Service (implementing the [Reconciliation Service API](https://reconciliation-api.github.io/specs/))
 
-The original version of the API is available under https://intavia-backend.acdh-dev.oeaw.ac.at/v1/
-A second and improved version of the API has been deployed under https://intavia-backend.acdh-dev.oeaw.ac.at/v2/docs
+The original version of the API is available under https://intavia-backend.acdh-dev.oeaw.ac.at/v1/.
+
+A second and improved version of the API has been deployed under https://intavia-backend.acdh-dev.oeaw.ac.at/v2/docs.
 
 ### Read-only InTaVia Knowledge graph
 
