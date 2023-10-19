@@ -94,4 +94,16 @@ The prototype implements functionalities used across the three top-level compone
 ### Story creation
 
 ### Story viewing
-Rlease: https://github.com/InTaVia/story-viewer/releases/tag/v1.0.0.
+
+
+The InTaVia Story Viewer offers a collection of stories curated using the Story Creator. It presents five stories featuring visualisations (e.g timelines, maps, ego-networks) and rich media content (e.g. images, videos, quiz, ...). 
+
+**General Access:** View the complete collection of stories [here](https://intavia.fluxguide.com/fluxguide/app).
+
+#### **Featured Stories:**
+1. [Albrecht Dürer's Biography](https://intavia.fluxguide.com/fluxguide/public/content/fluxguide/exhibitions/1/system/app/dist/index.html?storyId=986)
+2. [Pier Paolo Vergerio](https://intavia.fluxguide.com/fluxguide/public/content/fluxguide/exhibitions/1/system/app/dist/index.html?storyId=940)
+3. [Die Baugeschichte der Wiener Hofburg vom Mittelalter bis zur Neuzeit](https://intavia.fluxguide.com/fluxguide/public/content/fluxguide/exhibitions/1/system/app/dist/index.html?storyId=960)
+4. [Tuusula Lake Story](https://intavia.fluxguide.com/fluxguide/public/content/fluxguide/exhibitions/1/system/app/dist/index.html?storyId=993)
+5. [Herwig Zens (1943-2019)](https://intavia.fluxguide.com/fluxguide/public/content/fluxguide/exhibitions/1/system/app/dist/index.html?storyId=1012)
+
