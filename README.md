@@ -75,7 +75,21 @@ Prefect V2 has been deployed and flows are moved from v1 to v2 at the moment. Th
 
 ## NLP (WP4)
 
-[...]
+### Intavia NLP Pipelines
+
+The Milestone 5 version of NLP pipelines and can be found [here](https://github.com/InTaVia/nlp-pipelines). This new version includes processing of English texts. It is also updated to work in a similar fashion with Dutch and Slovenian. The Finnish and German resources are listed as well there.
+
+### From Wikipedia to Intavia
+
+A full pipeline that includes scripts to obtain any biography from Wikipedia with its respective metadata and connected to Wikidata resources was developed. This includes a converter to the Intavia Data Format (IDM) which allows to directly import and display the extracted data in the Intavia Frontend. Several notebooks have been included in order to introduce the user to the use of this. This can be found [here](https://github.com/InTaVia/nlp-pipelines/tree/main/english)
+
+### Dutch Annotated Data
+
+We developed an annotated dataset comprising 346 biographies written in Dutch. These were human annotated for Tokenization, Sentence Splitting, Named Entity Recognition and Relation Extraction. The repository where data can be downloaded is yet to be defined...
+
+### NLP Visualization
+
+In cooperation with WP5 we developed a tool for visualizing end exploring a given dataset of Biographies. This is a Flask App that allows searching in the corpus for relevant documents, adding NLP annotations to the documents and displaying how different NLP outputs compare to each other. The code fur running the Web App can be found [here](https://github.com/angel-daza/bios-dutch)
 
 ## Frontend (WP5 & WP6)
 
