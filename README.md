@@ -89,7 +89,16 @@ We developed an annotated dataset comprising 346 biographies written in Dutch. T
 
 ### NLP Visualization
 
-In cooperation with WP5 we developed a tool for visualizing end exploring a given dataset of Biographies. This is a Flask App that allows searching in the corpus for relevant documents, adding NLP annotations to the documents and displaying how different NLP outputs compare to each other. The code fur running the Web App can be found [here](https://github.com/angel-daza/bios-dutch)
+In cooperation with WP5 we developed multiple tools for visualizing end exploring a given dataset of Biographies.
+
+#### Performancer & AnnoXplorer
+
+The Performancer approach allows for distant reading and comparison of annotated text corpora and NLP tools. When a number of datapoints in one of the charts is brushed, the AnnoXplorer interface is opened in a new tab, giving the possibility for close reading and detailed analysis of the brushed annotations and texts.
+The code and installation instructions can be found [here](https://github.com/InTaVia/Performancer_AnnoXplorer/releases/tag/v2.0.0).
+
+#### Visual Document Explorer
+
+The Visual Document Explorer is a Flask App that allows searching in the corpus for relevant documents, adding NLP annotations to the documents and displaying how different NLP outputs compare to each other. The code fur running the Web App can be found [here](https://github.com/angel-daza/bios-dutch).
 
 ## Frontend (WP5 & WP6)
 
