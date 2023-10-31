@@ -100,6 +100,10 @@ The code and installation instructions can be found [here](https://github.com/In
 
 The Visual Document Explorer is a Flask App that allows searching in the corpus for relevant documents, adding NLP annotations to the documents and displaying how different NLP outputs compare to each other. The code fur running the Web App can be found [here](https://github.com/angel-daza/bios-dutch).
 
+#### ChatGPT-based Extraction and Verfication of Events in Biographies.
+
+This early prototype offers and interactive tool for biography event extraction and visual verification with ChatGPT to make text-mining tasks approachable for broad user groups. The code can be found [here](https://github.com/InTaVia/chatgpt-ner-vis).
+
 ## Frontend (WP5 & WP6)
 
 The Milestone 5 Prototype (v0.3.0) of the InTaVia web client (frontend) is available as a permanent release: https://github.com/InTaVia/web/releases/tag/v0.3.0.
