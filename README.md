@@ -102,7 +102,7 @@ The Visual Document Explorer is a Flask App that allows searching in the corpus 
 
 #### ChatGPT-based Extraction and Verfication of Events in Biographies.
 
-This work-in-progress prototype offers and interactive tool for biography event extraction and visual verification with ChatGPT to make text-mining tasks approachable for broad user groups. The code can be found [here](https://github.com/InTaVia/chatgpt-ner-vis).
+This work-in-progress prototype offers an interactive tool for biography event extraction and visual verification with ChatGPT to make text-mining tasks approachable for broad user groups. The code can be found [here](https://github.com/InTaVia/chatgpt-ner-vis).
 
 ## Frontend (WP5 & WP6)
 
