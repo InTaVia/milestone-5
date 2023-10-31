@@ -8,9 +8,6 @@ https://github.com/InTaVia/milestone-3
 
 https://github.com/InTaVia/milestone-4
 
-# `Please Update Below`
-
-
 ## Knowledge Graph & Backend (WP2 & 3)
 ### Data model InTaVia IDM-RDF
 
