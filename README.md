@@ -138,7 +138,10 @@ The VA studio implements an interactive user interface allowing to create differ
 ### Story creation
 The ST creator implements an interactive user interface allowing to generate and slide-based stories. The prototype can depict entities and their events on timelines, maps, and networks and provides the otpion to add content elements (i.e., texts, images, videos, quizzes): [https://intavia.acdh-dev.oeaw.ac.at/storycreator](https://intavia.acdh-dev.oeaw.ac.at/storycreator)
 
-- 
+- **Stories** are described by meta information including name, subtitle, author, copyright and language when creating new stories.
+- Stories consist of multiple **story slides**, for which different predefined layouts can be selected. Each slide is divided into specific areas for either visualizations or content chunks. The **slide editor** allows to customize each slide of the story.
+- Three interactive **narrative visualizations** are available for the use within a story slide – timeline, map, and network.
+- Different multi-media **narrative contents** can be added to a slide: text, image, quiz, video, audio, and HTML.
 
 ### Story viewing
 The InTaVia Story Viewer offers a collection of stories curated using the Story Creator. It presents five stories featuring visualisations (e.g timelines, maps, ego-networks) and rich media content (e.g. images, videos, quiz, ...). 
