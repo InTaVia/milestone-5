@@ -118,19 +118,27 @@ The prototype implements functionalities used across the three top-level compone
 - **Detail page** provides an overview of an entity's biography, including visualizations, media resources, a list of biographical events and the text-based biography source.
 
 ### Data curation, editing, and local data
+[https://intavia.acdh-dev.oeaw.ac.at/search](https://intavia.acdh-dev.oeaw.ac.at/search) 
 - **Collections** allow users to group entities and events by any topic of interest. Collections are created in the DCL (manually or from entire search results) and can then be used in the VAS and the SC to access stored data and visualize them with the help of the **data panel**. The data panel provides a list-based view onto the data. The data panel is used in the VAS and the SC as a link to the redux data cache (i.e., collections and the respective events and entities). Users can interacively add data listed to visualizations.
 - **Data editing** allows users to edit attributes, relations (events), media resources and biographies of existing entities. Any edits are stored locally and are not saved in the backend.
 - **Data creation** allows to create new entities in the frontend and add it to an existing collection.
 - **Data import** allows to import InTaVia Excel templates and IDM-JSON formatted data. More details and how-to use the template are explained [here](https://github.com/InTaVia/data-import/tree/main/public/data). The import logic is managed in a seperate [github repository](https://github.com/intavia/data-import) and is provided as a [npm package](https://www.npmjs.com/package/@intavia/data-import).
 - **Project export & import** allows to save and load the entire state of a InTaVia browser session. This mechanism allows to continue working later on a project or share the state of a project with others.
+- Import/export page: [https://intavia.acdh-dev.oeaw.ac.at/io](https://intavia.acdh-dev.oeaw.ac.at/io)
   
 ### Visual analysis
+The VA studio implements an interactive user interface allowing to create different visualizations for visual analysis of biographical and object data: [https://intavia.acdh-dev.oeaw.ac.at/visual-analytics-studio](https://intavia.acdh-dev.oeaw.ac.at/visual-analytics-studio)
+- **Timeline** view implements a component that visually adapts to the number of displayed entities and events and the available display space. To avoid overplotting several aggregation modes were developed. Different modes of color encoding are provided.
+- **Geographic map** view implements map layers that (1) are plotting simple markers at a given event location, (2) cluster proximal data points in a visually aggregated form, (3) connect event locations chronologically with trajectories/lines, and (4) show the data in a 3D perspective, where time is plotted along the z-axis (space time cube). Several options for different background maps and color encoding modes are provided. 
+- **Network** view allows users to explore the social networks of historical actors and relations between different entities in a force-directed node link diagram. 
+- **Visualization wizard** is shown in empty layout panels in the VAS and SC and allows to add/create new visualizations or load already existing visualizations into the respective panel. It also allows to delete visualizations or convert between visualization types.
+- **Workspaces** in the VAS can have several predefined layouts containing up to four visualizations implementing multiple, coordinated views.
 
 ### Story creation
+The ST creator implements an interactive user interface allowing to generate and slide-based stories. The prototype can depict entities and their events on timelines, maps, and networks and provides the otpion to add content elements (i.e., texts, images, videos, quizzes): [https://intavia.acdh-dev.oeaw.ac.at/storycreator](https://intavia.acdh-dev.oeaw.ac.at/storycreator)
+- 
 
 ### Story viewing
-
-
 The InTaVia Story Viewer offers a collection of stories curated using the Story Creator. It presents five stories featuring visualisations (e.g timelines, maps, ego-networks) and rich media content (e.g. images, videos, quiz, ...). 
 
 **General Access:** View the complete collection of stories [here](https://intavia.fluxguide.com/fluxguide/app).
