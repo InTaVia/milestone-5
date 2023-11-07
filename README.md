@@ -136,6 +136,7 @@ The VA studio implements an interactive user interface allowing to create differ
 
 ### Story creation
 The ST creator implements an interactive user interface allowing to generate and slide-based stories. The prototype can depict entities and their events on timelines, maps, and networks and provides the otpion to add content elements (i.e., texts, images, videos, quizzes): [https://intavia.acdh-dev.oeaw.ac.at/storycreator](https://intavia.acdh-dev.oeaw.ac.at/storycreator)
+
 - 
 
 ### Story viewing
