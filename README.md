@@ -110,6 +110,7 @@ The prototype is available online: https://intavia.acdh-dev.oeaw.ac.at/.
 The prototype implements functionalities used across the three top-level components (Data Curation Lab (DCL), Visual Analytics Studio (VAS), and Storytelling Suite (STS) = Story Creator (SC) + Story Viewer (SV)) in a single application (except the SV, which is a seperate application). Shared UI Componetns are managed in a seperate [github repository](https://github.com/intavia/ui) and is provided as a [npm package](https://www.npmjs.com/package/@intavia/ui). The functionalities implemented are:
 
 ### Search and find
+The DC lab allows to search and find data: [https://intavia.acdh-dev.oeaw.ac.at/search](https://intavia.acdh-dev.oeaw.ac.at/search)
 - A **typed API client** provides data fetching functions (towards the backend = InTaVia JSON API) and defining types of query parameters and types of the response shape ([InTaVia JSON data model](https://github.com/InTaVia/api-client/blob/main/src/models.ts)). The client also provides a zod validation schema to validate responses. The api-client is managed in a seperate [github repository](https://github.com/InTaVia/api-client) and is provided as a [npm package](https://www.npmjs.com/package/@intavia/api-client).
 - **Simple search** to query entities of the InTaVia KG by labels.
 - **Advanced search** to specifiy target entity type or define related entities.
@@ -118,7 +119,7 @@ The prototype implements functionalities used across the three top-level compone
 - **Detail page** provides an overview of an entity's biography, including visualizations, media resources, a list of biographical events and the text-based biography source.
 
 ### Data curation, editing, and local data
-[https://intavia.acdh-dev.oeaw.ac.at/search](https://intavia.acdh-dev.oeaw.ac.at/search) 
+The DC lab also allows to edit, create and import data: [https://intavia.acdh-dev.oeaw.ac.at/search](https://intavia.acdh-dev.oeaw.ac.at/search) 
 - **Collections** allow users to group entities and events by any topic of interest. Collections are created in the DCL (manually or from entire search results) and can then be used in the VAS and the SC to access stored data and visualize them with the help of the **data panel**. The data panel provides a list-based view onto the data. The data panel is used in the VAS and the SC as a link to the redux data cache (i.e., collections and the respective events and entities). Users can interacively add data listed to visualizations.
 - **Data editing** allows users to edit attributes, relations (events), media resources and biographies of existing entities. Any edits are stored locally and are not saved in the backend.
 - **Data creation** allows to create new entities in the frontend and add it to an existing collection.
