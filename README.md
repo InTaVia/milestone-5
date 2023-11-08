@@ -107,23 +107,23 @@ The Milestone 5 Prototype (v1.0.0) of the InTaVia web client (frontend) is avail
 
 The prototype is available online: https://intavia.acdh-dev.oeaw.ac.at/.
 
-The prototype implements functionalities used across the three top-level components (Data Curation Lab (DCL), Visual Analytics Studio (VAS), and Storytelling Suite (STS) = Story Creator (SC) + Story Viewer (SV)) in a single application (except the SV, which is a seperate application). Shared UI Componetns are managed in a seperate [github repository](https://github.com/intavia/ui) and is provided as a [npm package](https://www.npmjs.com/package/@intavia/ui). The functionalities implemented are:
+The prototype implements functionalities used across the three top-level components (Data Curation Lab (DCL), Visual Analytics Studio (VAS), and Storytelling Suite (STS) = Story Creator (SC) + Story Viewer (SV)) in a single application (except the SV, which is a separate application). Shared UI components are managed in a separate [GitHub repository](https://github.com/intavia/ui) and are provided as a [npm package](https://www.npmjs.com/package/@intavia/ui). The Gfunctionalities implemented are:
 
 ### Search and find
 The DC lab allows to search and find data: [https://intavia.acdh-dev.oeaw.ac.at/search](https://intavia.acdh-dev.oeaw.ac.at/search)
-- A **typed API client** provides data fetching functions (towards the backend = InTaVia JSON API) and defining types of query parameters and types of the response shape ([InTaVia JSON data model](https://github.com/InTaVia/api-client/blob/main/src/models.ts)). The client also provides a zod validation schema to validate responses. The api-client is managed in a seperate [github repository](https://github.com/InTaVia/api-client) and is provided as a [npm package](https://www.npmjs.com/package/@intavia/api-client).
+- A **typed API client** provides data fetching functions (towards the backend = InTaVia JSON API) and defines types of query parameters and types of the response shape ([InTaVia JSON data model](https://github.com/InTaVia/api-client/blob/main/src/models.ts)). The client also provides a zod validation schema to validate responses. The api-client is managed in a separate [GitHub repository](https://github.com/InTaVia/api-client) and is provided as a [npm package](https://www.npmjs.com/package/@intavia/api-client).
 - **Simple search** to query entities of the InTaVia KG by labels.
-- **Advanced search** to specifiy target entity type or define related entities.
+- **Advanced search** to specify target entity type or define related entities.
 - **Search result list** with quality indicators (i.e., numbers of related events, media present, biography present)
-- **Interactive visual result overview** (entity-histogram) inidcating frequencies by entity type and to adjust search filters of advanced search (i.e. filter for entity type).
+- **Interactive visual result overview** (entity-histogram) indicating frequencies by entity type and adjusting search filters of advanced search (i.e. filter for entity type).
 - **Detail page** provides an overview of an entity's biography, including visualizations, media resources, a list of biographical events and the text-based biography source.
 
 ### Data curation, editing, and local data
 The DC lab also allows to edit, create and import data: [https://intavia.acdh-dev.oeaw.ac.at/search](https://intavia.acdh-dev.oeaw.ac.at/search) 
-- **Collections** allow users to group entities and events by any topic of interest. Collections are created in the DCL (manually or from entire search results) and can then be used in the VAS and the SC to access stored data and visualize them with the help of the **data panel**. The data panel provides a list-based view onto the data. The data panel is used in the VAS and the SC as a link to the redux data cache (i.e., collections and the respective events and entities). Users can interacively add data listed to visualizations.
+- **Collections** allow users to group entities and events by any topic of interest. Collections are created in the DCL (manually or from entire search results) and can then be used in the VAS and the SC to access stored data and visualize them with the help of the **data panel**. The data panel provides a list-based view of the data. The data panel is used in the VAS and the SC as a link to the redux data cache (i.e., collections and the respective events and entities). Users can interactively add data listed to visualizations.
 - **Data editing** allows users to edit attributes, relations (events), media resources and biographies of existing entities. Any edits are stored locally and are not saved in the backend.
 - **Data creation** allows to create new entities in the frontend and add it to an existing collection.
-- **Data import** allows to import InTaVia Excel templates and IDM-JSON formatted data. More details and how-to use the template are explained [here](https://github.com/InTaVia/data-import/tree/main/public/data). The import logic is managed in a seperate [github repository](https://github.com/intavia/data-import) and is provided as a [npm package](https://www.npmjs.com/package/@intavia/data-import).
+- **Data import** allows to import InTaVia Excel templates and IDM-JSON formatted data. More details and how-to use the template are explained [here](https://github.com/InTaVia/data-import/tree/main/public/data). The import logic is managed in a separate [GitHub repository](https://github.com/intavia/data-import) and is provided as a [npm package](https://www.npmjs.com/package/@intavia/data-import).
 - **Project export & import** allows to save and load the entire state of a InTaVia browser session. This mechanism allows to continue working later on a project or share the state of a project with others.
 - Import/export page: [https://intavia.acdh-dev.oeaw.ac.at/io](https://intavia.acdh-dev.oeaw.ac.at/io)
   
@@ -136,11 +136,11 @@ The VA studio implements an interactive user interface allowing to create differ
 - **Workspaces** in the VAS can have several predefined layouts containing up to four visualizations implementing multiple, coordinated views.
 
 ### Story creation
-The ST creator implements an interactive user interface allowing to generate and slide-based stories. The prototype can depict entities and their events on timelines, maps, and networks and provides the otpion to add content elements (i.e., texts, images, videos, quizzes): [https://intavia.acdh-dev.oeaw.ac.at/storycreator](https://intavia.acdh-dev.oeaw.ac.at/storycreator)
+The ST creator implements an interactive user interface allowing to generate and slide-based stories. The prototype can depict entities and their events on timelines, maps, and networks and provides the option to add content elements (i.e., texts, images, videos, quizzes): [https://intavia.acdh-dev.oeaw.ac.at/storycreator](https://intavia.acdh-dev.oeaw.ac.at/storycreator)
 
 - **Stories** are described by meta information including name, subtitle, author, copyright and language when creating new stories.
 - Stories consist of multiple **story slides**, for which different predefined layouts can be selected. Each slide is divided into specific areas for either visualizations or content chunks. The **slide editor** allows to customize each slide of the story.
-- Three interactive **narrative visualizations** are available for the use within a story slide – timeline, map, and network.
+- Three interactive **narrative visualizations** are available for use within a story slide – timeline, map, and network.
 - Different multi-media **narrative contents** can be added to a slide: text, image, quiz, video, audio, and HTML.
 
 ### Story viewing
